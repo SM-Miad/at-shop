@@ -15,3 +15,6 @@ class Base {
 }
 const pages = new Base();
 pages.browserOpen('https://demowebshop.tricentis.com/');
+pages.browserClose();
+
+//added a new branch B1
