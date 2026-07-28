@@ -6,7 +6,6 @@
   "author": "Shoab",
   "type": "module",
   "main": "base.js",
-  "type": "commonjs",
   "scripts": {
     "test": "node base.js"
   },
