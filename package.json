@@ -1,0 +1,16 @@
+{
+  "name": "bach18",
+  "version": "1.0.0",
+  "description": "Trying automation project",
+  "license": "ISC",
+  "author": "Shoab",
+  "type": "module",
+  "main": "base.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node base.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.46.0"
+  }
+}
