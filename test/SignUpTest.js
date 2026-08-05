@@ -1,0 +1,13 @@
+import {SignUpPage} from "../page/SignUpPage.js";
+console.log("SignUp Test Started");
+const page = new SignUpPage();
+await page.browserOpen("https://demowebshop.tricentis.com/");
+await page.clickRegisterLink();
+await page.selectGender();
+await page.enterFirstName("Mehedi");
+await page.enterLastName("Hasan");
+await page.enterEmail("mehedi220802@gmail.com");
+await page.enterPassword("123456");
+await page.enterConfirmPassword("123456");
+await page.clickRegisterButton();
+await page.browserClose();
